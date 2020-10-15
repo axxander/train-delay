@@ -21,6 +21,8 @@ traindelay origin-station-CRS destination-station-CRS HHMM YYYY-MM-DD
 traindelay yrk shf 0954 2020-10-09
 ```
 and the response is:
-> Journey: YRK --> SHF
-> Scheduled Arrival: 0954
-> Actual Arrival: 1004
+```bash
+Journey: YRK --> SHF
+Scheduled Arrival: 0954
+Actual Arrival: 1004
+```
