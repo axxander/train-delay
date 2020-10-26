@@ -170,7 +170,10 @@ def arg_parse(user_input: List[str]) -> Tuple[str]:
 		args: from_loc, to_loc, time and date.
 
 	"""
-	input_str = "".join(arg.strip() + " " for arg in user_input)
+	input_str = "".join(arg.strip() + " " for arg in user_input).strip()
+
+	if len(input_str) != 23:  # all valid inputs will be the same length
+		sys.exit("Arguments are invalid. Please try again.")
 
 	match = re.search(Constants.interface_pattern, input_str)
 	if not match:
