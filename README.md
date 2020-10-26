@@ -12,7 +12,6 @@ There are many features that I intend to add in the future. A select few are:
 - Multi-leg ticket system where the total delay can be calculated, as well as the operator responsible for delays.
 - Making the station name system more user friendly.
 
-
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Python project dependencies.
 
