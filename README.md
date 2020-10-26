@@ -48,7 +48,7 @@ Actual Arrival: 1004
 ### Example: Leicester -> Narborough
 Train departing from `Leicester` (CRS: LEI) to `Narborough` (CRS: NBR) at `1550` on `2020-10-26`
 ```bash
-traindelay lei nbr 0954 2020-10-26
+traindelay lei nbr 1550 2020-10-26
 ```
 Train Delay response
 ```bash
