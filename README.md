@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 Create the alias command "traindelay" to launch the Train Delay App from anywhere. On Linux OS, change from `.bash_profile` to `.bashrc`.
 ```bash
-source noted/alias.sh
+source traindelay/alias.sh
 ```
 
 ## Usage
