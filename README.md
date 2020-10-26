@@ -58,7 +58,7 @@ Actual Arrival: 1558
 ```
 
 ## Tests
-The unit tests currently only cover the regular expression for handelling the command line interface.
+The unit tests currently only cover the regular expression for handling the command line interface.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
