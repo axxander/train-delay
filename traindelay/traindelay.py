@@ -68,9 +68,7 @@ class ServiceMetric:
 			beyond midnight.
 			
 		"""
-		p = re.compile(r"([0-9]{2})([0-9]{2})")  # hour and minute pattern
-		hour, minute = re.search(p, time).groups()
-		hour, minute = int(hour), int(minute)
+		hour, minute = int(time[:2]), int(time[2:])
 
 		minute += delta
 		if minute // 60:  # increment hour and recalculate minute
